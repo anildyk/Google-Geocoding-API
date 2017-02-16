@@ -1,5 +1,6 @@
 # Google-Geocoding-API
 Enter the place name and get latitude, longitude and formatted address by Google Geocoding API.
+
 Note: To use this file, you need to replace "YOUR_API_KEY" with [your API key](https://developers.google.com/maps/documentation/geocoding/start#get-a-key) of Google Geocoding API. 
 
 #How To Use
