@@ -1,5 +1,5 @@
 import urllib, json
-#Googele Geocoding API url.
+#Google Geocoding API url.
 api_url = "https://maps.googleapis.com/maps/api/geocode/json?"
 while True:
 	address = raw_input('Enter Location: ')
@@ -20,5 +20,5 @@ while True:
 	lng = js["results"][0]["geometry"]["location"]["lng"] #Get Longitude fron JSON Object.
 	print "Latitude:",lat
 	print "Longitude:",lng
-	location = js["results"][0]["formatted_address"] #Get Formatted Location or location according to Google Map
+	location = js["results"][0]["formatted_address"] #Get formatted location or location according to Google Map
 	print "Formatted Address:",location
